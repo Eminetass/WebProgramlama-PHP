@@ -1,0 +1,11 @@
+<?php
+     $sayi1 = 5;
+     $sayi2 = 10;
+     $toplam = 0;
+
+     for($i = $sayi1 + 1 ; $i < $sayi2 ; $i++){ //sayi1 ve sayi2 dahil değil      
+          $toplam = $toplam + $i;
+     } 
+
+     echo("Sonuç : " .$toplam);
+?>
